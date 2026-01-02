@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+
+}
+.mata-kuliah{
+    font-size: small;
+}
+
+.container{
+    /* background-color:burlywood; */
+    text-align: center;
+    margin: 0 auto;
+    margin-top:10% ;
+    background-color: rgb(255, 202, 202);
+    border-radius: 20px;
+    padding: 5px 20px;
+    width: max-content;
+    padding-bottom: 20px;
+    border: 3px solid crimson;
+}
+
+
+.input-group{
+    display: flex;
+    margin: 10px auto;
+    background-color: #fff2e2;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: max-content;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+select{
+    max-width: max-content;
+    
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+#nilai-akhir{
+    font-weight: bold;
+    font-size: large;
+    background-color: #fff2e2;
+    padding: 10px;
+    border: 2px solid rgb(207, 0, 0);
+    border-radius: 10px;
+}
+
+button {
+    width: 270px; 
+    margin: 0;    
+    cursor: pointer;
+    background-color:rgba(255, 179, 65, 0.989);
+    border-radius: 5px;
+    padding:5px;
+    border:2px solid black;
+    transition: transform 0.4s;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.input-group.hasil{
+    background-color: transparent;
+    border: transparent;
+    margin: 0;
+    
+}   
+
