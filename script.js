@@ -1,28 +1,15 @@
-let alinkom, alpro, pmk, radig, basdat, strukdis, tp, hasil;
+let pemrog, oak, strukdat, metkuan, rpl, dpp, gkv, hasil;
 
 document.getElementById('Hitung').onclick = function(){
-    alinkom = document.getElementById('alinkom').value;
-    alinkom = parseFloat(alinkom);
-    
-    alpro = document.getElementById('alpro').value;
-    alpro = parseFloat(alpro);
-    
-    pmk = document.getElementById('pmk').value;
-    pmk = parseFloat(pmk);
+    pemrog = parseFloat(document.getElementById('pemrog').value);
+    oak = parseFloat(document.getElementById('oak').value);   
+    strukdat = parseFloat(document.getElementById('strukdat').value);
+    metkuan = parseFloat(document.getElementById('metkuan').value);
+    rpl = parseFloat(document.getElementById('rpl').value);
+    dpp = parseFloat(document.getElementById('dpp').value);
+    gkv = parseFloat(document.getElementById('gkv').value);
 
-    radig = document.getElementById('radig').value;
-    radig = parseFloat(radig);
-
-    basdat = document.getElementById('basdat').value;
-    basdat = parseFloat(basdat);
-
-    strukdis = document.getElementById('strukdis').value;
-    strukdis = parseFloat(strukdis);
-
-    tp = document.getElementById('tp').value;
-    tp = parseFloat(tp);
-
-    hasil = (((alinkom*3)+(alpro*3)+(pmk*3)+(radig*2)+(basdat*3)+(strukdis*2)+(tp*3))/19);
+    hasil = (((pemrog*3)+(oak*2)+(strukdat*3)+(metkuan*3)+(rpl*3)+(dpp*3)+(gkv*2))/19);
      
     document.getElementById('nilai-akhir').textContent = hasil.toFixed(2);
 

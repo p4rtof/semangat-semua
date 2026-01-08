@@ -4,13 +4,14 @@ body {
 }
 .mata-kuliah{
     font-size: small;
+    padding-right: 15px;
 }
 
 .container{
     /* background-color:burlywood; */
     text-align: center;
     margin: 0 auto;
-    margin-top:2% ;
+    margin-top:4% ;
     background-color: rgb(255, 202, 202);
     border-radius: 20px;
     padding: 5px 20px;
